@@ -1,5 +1,7 @@
 # azlimitscheckautocasecreation
 
+Using this custom script, you can monitor and auto create the quota limit increase cases for the critical quotas.
+
 **To register the resource provider, execute the below command.**
 Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
 
