@@ -23,4 +23,6 @@ SubscriptionName 90e866b6-4211-41aa-9f87-fe3c974d5e17 74f988bf-89f1-45af-91ab-2d
 
 **The threshold limit value to trigger the case creation can be changed based on the business use case. **
 
-The custom script(.ps1) can be scheduled to execute from the task scheduler in windows or cron job in Linux. 
+The custom script(.ps1) can be scheduled to execute from the task scheduler in windows or cron job in Linux.
+
+If you have questions or suggestions, please leave your comments below. Good luck!
