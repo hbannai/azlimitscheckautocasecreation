@@ -9,7 +9,7 @@ get-AzResourceProvider -ProviderNamespace Microsoft.Capacity
 #required information
 $subscriptionId = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
 $pwd = "password"
-$azureAdApplication = Get-AzADApplication -IdentifierUri "https://localhost/bannai-azure-monitor"
+$azureAdApplication = Get-AzADApplication -Objectid xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx
 $subscription = Get-AzSubscription -SubscriptionId $subscriptionId
 $clientId = $azureAdApplication.ApplicationId.Guid
 $tenantId = $subscription.TenantId
