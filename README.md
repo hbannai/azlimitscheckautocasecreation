@@ -20,11 +20,9 @@ Locations         : {East US, East US 2, West US, Central US…}
 ## Use the below command to get the object id
 
 **The result set looks like the following:
-PS /home/user> get-azureadapplication 
 
-ObjectId                               AppId                                     DisplayName
---------                               -----                                     -----------
-xxxxxxx-xxxx-xxxx-xxxx-xxx             xxxxxx-xxxx-xxxx-xxxx-xxxxxxx            Name of the Application
+![image](https://user-images.githubusercontent.com/78607937/122462770-fc44d680-cf82-11eb-85e9-1c53f6df354b.png)
+
 
 
 ## Use the below command to get the Subscription id, Tenant id
