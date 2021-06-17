@@ -1,6 +1,6 @@
 # azlimitscheckautocasecreation
 
-Using this custom script, you can monitor and auto create the quota limit increase cases for the critical quotas.
+Some Azure services have adjustable quota limits. Monitoring these quota limits is critical for keeping mission-critical applications and services up and running. Using this script, you can monitor and auto create the quota limit increase cases for the critical quotas.
 
 **To register the resource provider, execute the below command.**
 Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
@@ -12,6 +12,16 @@ ResourceTypes     : {availabilitySets, virtualMachines,
                     virtualMachines/extensions,
                     virtualMachineScaleSets…}
 Locations         : {East US, East US 2, West US, Central US…}
+
+**Use the below command to get the object id**
+
+**The result set looks like the following:
+PS /home/user> get-azureadapplication 
+
+**ObjectId                             AppId                                  DisplayName**
+--------                               -----                                  -----------
+xxxxxxx-xxxx-xxxx-xxxx-xxx            xxxxxx-xxxx-xxxx-xxxx-xxxxxxx            Name of the Application
+
 
 **Use the below command to get the Subscription id, Tenant id. **
 
