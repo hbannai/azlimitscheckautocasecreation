@@ -1,15 +1,15 @@
-Azure Monitoring Quotas Programatically
+## Azure Monitoring Quotas Programatically
 
-Introduction
+## Introduction
 Some Azure services have adjustable quota limits. Monitoring these quota limits is critical for keeping mission-critical applications and services up and running. Using this script, you can monitor and auto create the quota limit increase cases for the critical quotas.
 
 Important commands, required to run the script
 
 
-**To register the resource provider, execute the below command.**
+## To register the resource provider, execute the below command
 Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
 
-**The result set looks like the following:**
+## The result set looks like the following:
 ProviderNamespace : Microsoft.Compute
 RegistrationState : Registered
 ResourceTypes     : {availabilitySets, virtualMachines,
@@ -17,7 +17,7 @@ ResourceTypes     : {availabilitySets, virtualMachines,
                     virtualMachineScaleSets…}
 Locations         : {East US, East US 2, West US, Central US…}
 
-**Use the below command to get the object id**
+## Use the below command to get the object id
 
 **The result set looks like the following:
 PS /home/user> get-azureadapplication 
