@@ -21,7 +21,7 @@ Locations         : {East US, East US 2, West US, Central US…}
 
 **The result set looks like the following:
 
-![image](https://user-images.githubusercontent.com/78607937/122462770-fc44d680-cf82-11eb-85e9-1c53f6df354b.png)
+![image](https://user-images.githubusercontent.com/78607937/122463593-c9e7a900-cf83-11eb-8ff0-4149c7596a4d.png)
 
 
 
