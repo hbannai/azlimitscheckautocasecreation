@@ -30,8 +30,8 @@ Locations         : {East US, East US 2, West US, Central US…}
 Get-Azsubscription -subscriptionName “subscriptionName”
 
 **The result set looks like the following:
- Name                Id                                     TenantId                                State 
-SubscriptionName     90e866b6-4211-41aa-9f87-fe3c974d5e17   74f988bf-89f1-45af-91ab-2d7cd011db47    Enabled
+
+![image](https://user-images.githubusercontent.com/78607937/122463241-5e9dd700-cf83-11eb-95e0-2fd9afc1f683.png)
 
 ## The threshold limit value to trigger the case creation can be changed based on the business use case.
 
