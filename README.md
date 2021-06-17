@@ -1,6 +1,10 @@
-# azlimitscheckautocasecreation
+Azure Monitoring Quotas Programatically
 
+Introduction
 Some Azure services have adjustable quota limits. Monitoring these quota limits is critical for keeping mission-critical applications and services up and running. Using this script, you can monitor and auto create the quota limit increase cases for the critical quotas.
+
+Important commands, required to run the script
+
 
 **To register the resource provider, execute the below command.**
 Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
