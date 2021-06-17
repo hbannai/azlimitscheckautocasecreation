@@ -9,7 +9,7 @@ Important commands, required to run the script
 ## To register the resource provider, execute the below command
 Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
 
-## The result set looks like the following:
+The result set looks like the following:
 ProviderNamespace : Microsoft.Compute
 RegistrationState : Registered
 ResourceTypes     : {availabilitySets, virtualMachines,
